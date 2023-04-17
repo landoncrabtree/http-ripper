@@ -10,6 +10,8 @@ This script parses PCAP files (`.pcap`, `.pcapng`) for HTTP 206 - Partial Conten
 ## Usage
 ```
 python3 -m pip install scapy
+git clone https://github.com/landoncrabtree/http-ripper.git
+cd http-ripper
 python3 http-ripper.py [-h] -f FILE [-e EXTRACT] -o OUTPUT [-v]
 python3 http-ripper.py -f packets.pcapng -o out.gif
 ```
